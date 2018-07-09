@@ -1,0 +1,16 @@
+plugins {
+	id 'java'
+	id 'groovy'
+    id 'application'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+mainClassName = 'sut.Main'
+
+repositories.jcenter()
+
+dependencies {
+	implementation("org.codehaus.groovy:groovy-all:2.5.0")
+}
